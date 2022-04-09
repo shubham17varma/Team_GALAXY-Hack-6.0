@@ -47,7 +47,7 @@
 
 .background-img{
   width: 100%;
-  max-height: 620px;
+  max-height: 670px;
 }
 
 h1, .h1para, .h2para{
@@ -74,8 +74,12 @@ h1{
 
 .h2para{
   top: 75%;
-  left: 7%;
+  left: 20%;
   font-size: 2.23rem;
+}
+
+.hr1{
+  margin: 0 !important;
 }
 
 .signupbutton{
@@ -97,4 +101,45 @@ h1{
   color: black !important;
   background-color: white !important;
   border-color: black !important;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  text-align: center;
+  font-size: 3rem;
+  color: black;
+}
+
+.section2para{
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+  font-weight: bold !important;
+}
+
+.platforms{
+  font-weight: bold;
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+}
+
+.platforms-img{
+  padding-left: 25%;
+  padding-top: 3%;
 }
