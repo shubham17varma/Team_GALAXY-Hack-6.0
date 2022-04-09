@@ -9,8 +9,11 @@
   left: -5%;
 }
 
+.nav-link:hover{
+  text-decoration: underline;
+}
+
 .navigation{
-  position: fixed;
   background-color: black !important;
 }
 
