@@ -9,22 +9,29 @@ from bs4 import BeautifulSoup
 from selenium.webdriver.common.by import By
 from htmldom import htmldom
 
+#define 
 url = "https://450dsa.com/array"
-driver = webdriver.Chrome(ChromeDriverManager().install())
-driver.get(url)
-# Wait for the page to fully render before parsing it
-dom = htmldom.HtmlDom(url)  
-dom = dom.createDom()
-time.sleep(10)
+dic={}
 
-# traverse list
-elems = driver.find_elements_by_xpath("//a[@href]")
-for elem in elems:
-    print(elem.get_attribute("href"))
-    
+def link_dic():
+    driver = webdriver.Chrome(ChromeDriverManager().install())
+    driver.get(url)
+    # Wait for the page to fully render before parsing it
+    dom = htmldom.HtmlDom(url)  
+    dom = dom.createDom()
+    time.sleep(10)
+    elems = driver.find_elements_by_xpath("//a[@href]")
+    for elem in elems:
+        dic[elem.text]=elem.get_attribute("href")
+    driver.quit()
+    return dic
+
+# main function
+if __name__ == '__main__':
+    print(link_dic())
 
 
 
 
 
-driver.quit()
+
