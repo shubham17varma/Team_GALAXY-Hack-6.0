@@ -1,0 +1,22 @@
+.nav-link{
+  color: white !important;
+}
+
+.form-control{
+  right: 10% !important;
+}
+
+.loginbutton{
+  align-items:flex-end !important;
+  width: 50%;
+  height: 45px;
+  color: white !important;
+  background-color: #212529 !important;
+  border-color: white !important;
+}
+
+.loginbutton:hover{
+  color: black !important;
+  background-color: white !important;
+  border-color: black !important;
+}
