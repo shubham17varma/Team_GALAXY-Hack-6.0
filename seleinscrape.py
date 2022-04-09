@@ -8,10 +8,16 @@ from selenium.common.exceptions import ElementClickInterceptedException
 from bs4 import BeautifulSoup
 from selenium.webdriver.common.by import By
 from htmldom import htmldom
+import csv
 
 #define 
 url = "https://450dsa.com/array"
 dic={}
+field_names= ['Title', 'Links']
+
+
+
+
 
 def link_dic():
     driver = webdriver.Chrome(ChromeDriverManager().install())
@@ -19,8 +25,8 @@ def link_dic():
     # Wait for the page to fully render before parsing it
     dom = htmldom.HtmlDom(url)  
     dom = dom.createDom()
-    time.sleep(10)
-    elems = driver.find_elements_by_xpath("//a[@href]")
+    time.sleep(7)
+    elems = driver.find_elements(by=By.XPATH,value="//a[@href]")
     for elem in elems:
         dic[elem.text]=elem.get_attribute("href")
     driver.quit()
@@ -28,7 +34,12 @@ def link_dic():
 
 # main function
 if __name__ == '__main__':
-    print(link_dic())
+    flist=link_dic()
+    imp = {k: flist[k] for k in list(flist)[2:]}
+    with open('donewl.txt', 'w') as f:
+        for key, value in imp.items(): 
+            f.write('%s:%s\n' % (key, value))
+
 
 
 
