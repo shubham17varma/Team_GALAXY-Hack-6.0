@@ -1,0 +1,33 @@
+java 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLUcsbZa0qzu1uDiwQBjJew9mE2BxowIiu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+web dev
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLfqMhTWNBTe3H6c9OGXb5_6wcc1Mca52n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+python
+
+CP 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL4PCksYQGLJOcaPLgeMFaxaHigPFjBuTG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Placement
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL4PCksYQGLJM2mKe1n8LnFgcm3FRLhxZ9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+C++
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLDzeHZWIZsToJ9zSl4-5BfOBzAR0fm--f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLDzeHZWIZsTqouGFa8IyE8K-5hbtAppCC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+OS 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLDzeHZWIZsTr3nwuTegHLa2qlI81QweYG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Flutter
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLDzeHZWIZsTo3Cs115GXkot28i406511Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+DSA
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLUcsbZa0qzu3yNzzAxgvSgRobdUUJvz7p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+APP dev
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLUcsbZa0qzu3Mri2tL1FzZy-5SX75UJfb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+ML 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jGwO_UgTS7I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
