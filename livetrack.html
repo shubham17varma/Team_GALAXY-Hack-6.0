@@ -31,23 +31,18 @@
             let texd = "calender";
             for (var i = 0; i < data.length; i++) {
                 var div = document.createElement("div");
-                div.innerHTML = 'COntest Name: ' + data[i].name + '<br/> ' +
-                    'Url:' + data[i].url + '<br/> ' + 'Start Time ' +
-                    data[i].start_time + '     ' + 'End Time: ' + data[i].end_time + '<br/>' +
+                div.innerHTML = 'Contest Name: ' + data[i].name + '<br/> ' +
+                    'Url:' + data[i].url + '<br/> ' + 
+                    'Date ' +data[i].start_time[0]+ data[i].start_time[1] + data[i].start_time[2]+ data[i].start_time[3]+ data[i].start_time[4]+ data[i].start_time[5]+ data[i].start_time[6]+ data[i].start_time[7]+ data[i].start_time[8]+ data[i].start_time[9]+ '  To  ' + data[i].end_time[0] + data[i].end_time[1]+ data[i].end_time[2]+ data[i].end_time[3]+ data[i].end_time[4]+ data[i].end_time[5]+ data[i].end_time[6]+ data[i].end_time[7]+ data[i].end_time[8]+ data[i].end_time[9]+ '<br/>' +
+                    'Timing ' + data[i].start_time[11] + data[i].start_time[12]+ data[i].start_time[13]+ data[i].start_time[14]+ data[i].start_time[15]+ '  To  ' +data[i].end_time[11]+ data[i].end_time[12]+ data[i].end_time[13]+ data[i].end_time[14]+ data[i].end_time[15]  +'<br/>' +
                     // data[i].duration + '<br/>' +
                     // data[i].in_24_hours + '<br/>' +
                     // data[i].status+ '<br/>' +
-<<<<<<< Updated upstream
                     // 'https://calendar.google.com/calendar/u/0/r/eventedit?text='+data[i].name+'&dates='+data[i].start_time[0]+data[i].start_time[1]+data[i].start_time[2]+data[i].start_time[3]+data[i].start_time[5]+data[i].start_time[6]+data[i].start_time[8]+data[i].start_time[9]+data[i].start_time[10]+data[i].start_time[11]+data[i].start_time[12]+data[i].start_time[14]+data[i].start_time[15]+'/'+data[i].end_time[0]+data[i].end_time[1]+data[i].end_time[2]+data[i].end_time[3]+data[i].end_time[5]+data[i].end_time[6]+data[i].end_time[8]+data[i].end_time[9]+data[i].end_time[10]+data[i].end_time[11]+data[i].end_time[12]+data[i].end_time[14]+data[i].end_time[15]+'&location='+data[i].url+'&pli=1&uid&sf=true&output=xml%23eventpage_6'+'<br/>'+'<br/>';
                     
-                    mainContainer.appendChild(div);
-                
-                
-
-=======
-                    "<a href='https://calendar.google.com/calendar/u/0/r/eventedit?text=ProjectEuler+&dates=20140707T1538/20240730T1830&location=https://hackerrank.com/contests/projecteuler&pli=1&uid&sf=true&output=xml%23eventpage_6'>Add to Calender:📆</a>";
+                    // mainContainer.appendChild(div);
+                    "<a href='https://calendar.google.com/calendar/u/0/r/eventedit?text=ProjectEuler+&dates=20140707T1538/20240730T1830&location=https://hackerrank.com/contests/projecteuler&pli=1&uid&sf=true&output=xml%23eventpage_6'>Add to Calender:📆</a>"+'<br/>'+'<br/>';
                 mainContainer.appendChild(div);
->>>>>>> Stashed changes
             }
         }
     </script>
