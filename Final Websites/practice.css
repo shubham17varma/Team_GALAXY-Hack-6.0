@@ -1,0 +1,81 @@
+div#header {
+    background-color: #DDF;
+    height: 100px;
+    }
+    div#main {
+    border: solid 2px blue;
+    margin-left: 22%;
+    height: 90%;
+    }
+    div#sidebar {
+    background-color: #0FF;
+    width: 20%;
+    height: 219%;
+    position: absolute;
+    top: 110px;
+    /* min-height: 300px; */
+    }
+    div#footer {
+    border: 2px solid red;
+    margin-left: 22%;
+    height: 10%;
+    }
+
+    body {
+  font-family: Arial;
+  color: white;
+}
+
+.split {
+  height: 100%;
+  width: 18%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: #111;
+}
+
+.right {
+  right: 0;
+  background-color: white;
+}
+
+h2{
+  padding-left: 6%;
+  color: white;
+}
+
+.forms, .topicfilters{
+  padding-left: 10%;
+  color: white;
+}
+
+.card1, .card2, .card3, .card4, .card5, .card6{
+  position: absolute;
+  margin-left: 19% !important;
+  margin-bottom: 2%;
+  color: black;
+}
+
+.card1{
+  margin-top: 2% !important;
+}
+
+/* .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center; */
+}
+
+/* .centered img {
+  width: 150px;
+  border-radius: 50%;
+} */
