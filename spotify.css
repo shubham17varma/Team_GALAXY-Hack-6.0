@@ -1,0 +1,37 @@
+h1.headings {
+    text-align: left;
+    color: white;
+    font-family: 'Segoe UI';
+    padding-left: 20px;
+}
+
+.button {
+    background-color: #926b6b;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 22px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: Verdana;
+    border-color: black;
+    border-radius: 5%;
+    font-weight: 1000;
+  }
+  a:link, a:visited {
+    color: white;
+    padding: 10px 1px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  button:hover {
+    /* background-color: rgb(47, 0, 255);
+     */
+     background-color: black;
+
+  }

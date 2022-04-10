@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" , sans-serif;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #2b2a2c;
+  padding: 25px;
+}
+.main{
+  position: relative;
+  max-width: 850px;
+  width: 100%;
+  background: #fff;
+  padding: 40px 30px;
+  perspective: 2700px;
+}
+.main .cover{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 100%;
+  width: 50%;
+  z-index: 98;
+  transition: all 2s ease;
+  transform-origin: left;
+  transform-style: preserve-3d;
+}
+.main #flip:checked ~ .cover{
+  transform: rotateY(-180deg);
+}
+
+.main #flip{
+    display: none;
+  }
+  @media (max-width: 730px) {
+    .main .cover{
+      display: none;
+    }
+    .form-content .login-form,
+    .form-content .signuppage{
+      width: 100%;
+    }
+    .form-content .signuppage{
+      display: none;
+    }
+    .main #flip:checked ~ .forms .signuppage{
+      display: block;
+    }
+    .main #flip:checked ~ .forms .login-form{
+      display: none;
+    }
+  }
+
+ .main .cover .signinside,
+ .main .cover .signupside{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.cover .signupside{
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+.main .cover::before,
+.main .cover::after{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #1a181d;
+  opacity: 0.3;
+  z-index: 15;
+}
+.main .cover::after{
+  opacity: 0.2;
+  transform: rotateY(180deg);
+}
+
+.forms .form-content label:hover{
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+  }
+
+.main .cover img{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: 15;
+}
+.main .cover .text{
+  position: absolute;
+  z-index: 130;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cover .text .text-1,
+.cover .text .text-2{
+  font-size: 26px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+}
+.cover .text .text-2{
+  font-size: 15px;
+  font-weight: 500;
+}
+.main .forms{
+  height: 100%;
+  width: 100%;
+  background: #fff;
+}
+.main .form-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.form-content .login-form,
+.form-content .signuppage{
+  width: 380px;
+}
+.forms .form-content .title{
+  position: relative;
+  font-size: 24px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+}
+
+.forms .signuppage  .title:before{
+  width: 20px;
+}
+.forms .form-content .input-boxes{
+  margin-top: 30px;
+}
+.forms .form-content .input-box{
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  margin: 10px 0;
+  position: relative;
+}
+.form-content .input-box input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 0 30px;
+  font-size: 15px;
+  font-weight: 510;
+  border-bottom: 2px solid rgba(0, 17, 255, 0.2);
+  transition: all 0.3s ease;
+}
+.form-content .input-box input:focus,
+.form-content .input-box input:valid{
+  border-color: #1a181d;
+}
+.form-content .input-box i{
+  position: absolute;
+  color: #1a181d;
+  font-size: 17px;
+}
+.forms .form-content .text{
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(0, 68, 255);
+}
+.forms .form-content .text a{
+  text-decoration: none;
+}
+.forms .form-content .text a:hover{
+  text-decoration: underline;
+}
+.forms .form-content .button{
+  color: #fff;
+  margin-top: 40px;
+}
+.forms .form-content .button input{
+  color: #fff;
+  background: #000000;;
+  border-radius: 6px;
+  padding: 0;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.forms .form-content .button input:hover{
+  background: #b4a3a7;;
+}
+.forms .form-content label{
+  color: #000000;;
+  cursor: pointer;
+}
+
+.forms .form-content .login-text,
+.forms .form-content .sign-up-text{
+  text-align: center;
+  margin-top: 25px;
+}
+

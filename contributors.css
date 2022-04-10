@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+h1.introduction{
+    text-align: center;
+    font-family: Verdana;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    
+}
+
+h2 {
+    color: black;
+}
+
+p{
+    color: black !important;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 35%;
+    margin-bottom: 16px;
+    padding: 50px 50px;
+    padding-left: 120px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 100px 0 rgba(150, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: blue !important;
+    font-family: Verdana;
+  }
+
+  p {
+   font-family: 'Gill Sans';
+   color: rgb(0, 47, 255);
+  }
+
+  img.mayank {
+      height: 470px;
+  }
+  
+  img.amaan {
+      height: 420px;
+  }
+
+  
+ 
