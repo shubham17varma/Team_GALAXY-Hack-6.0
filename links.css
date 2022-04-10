@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+h2 {
+    text-align: center;
+    padding-left: 30px;
+    font-family: Verdana;
+    font-size: 40px;
+    color: black;
+    font-weight: 700;
+}
+
+img {
+    border-radius: 40px;
+    padding: 20px 30px;
+    padding-left: 100px;
+}
+
+img.coursera {
+    height: 365px;
+}
+
+img.guru99 {
+    height: 365px;
+    width:500px;
+}
+
+
+.card{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  /* padding: 14px 80px 18px 36px; */
+  cursor: pointer;
+  width: 100%;
+  padding: 25px;
+
+}
+
+.card:hover{
+     transform: scale(1.05);
+     color: rgb(219, 222, 224);
+     background-color: rgb(219, 222, 224);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
